@@ -1,15 +1,8 @@
 "use client"
 
-import { useState } from "react"
 import "../styles/Contact.css"
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  })
 
 
   return (
