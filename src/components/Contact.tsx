@@ -1,70 +1,74 @@
-"use client"
+"use client";
 
-import "../styles/Contact.css"
+// Import core Font Awesome library
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import "../styles/Contact.css";
+
+
+library.add(fas, fab);
 
 const Contact = () => {
-
-
   return (
     <section className="contact-section">
-      <h2 className="section-title">Contact Me</h2>
+      <h2 className="section-title">Neem contact op</h2>
 
       <div className="contact-container">
         <div className="contact-info">
           <h3>Get in Touch</h3>
-          <p>
-            Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or
-            opportunities to be part of your vision.
-          </p>
+            <p>
+            Aarzel niet om contact met me op te nemen. Ik ben altijd open voor het bespreken van nieuwe projecten, creatieve ideeën of kansen om deel uit te maken van jouw visie.
+            </p>
 
+          {/* Address */}
           <div className="info-item">
             <div className="info-icon">
-              <i className="fas fa-map-marker-alt"></i>
+              <FontAwesomeIcon icon="map-marker-alt" />
             </div>
             <div className="info-content">
               <h4>Address</h4>
-              <p>123 Main Street, New York, NY 10001</p>
+              <p>Wijnegemstraat 14, Borgerhout</p>
             </div>
           </div>
 
+          {/* Email */}
           <div className="info-item">
             <div className="info-icon">
-              <i className="fas fa-envelope"></i>
+              <FontAwesomeIcon icon="envelope" />
             </div>
             <div className="info-content">
               <h4>Email</h4>
-              <p>john@example.com</p>
+              <p> BoatengTerry@outlook.com</p>
             </div>
           </div>
 
+          {/* Phone */}
           <div className="info-item">
             <div className="info-icon">
-              <i className="fas fa-phone"></i>
+              <FontAwesomeIcon icon="phone" />
             </div>
             <div className="info-content">
               <h4>Phone</h4>
-              <p>+1 (123) 456-7890</p>
+              <p>+32 498 02 36 55</p>
             </div>
           </div>
 
+          {/* Social Links */}
           <div className="social-links">
-            <a href="#" className="social-link">
-              <i className="fab fa-linkedin-in"></i>
+            <a href="www.linkedin.com/in/terry-boateng-56a215201" className="social-link">
+              <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
             </a>
-            <a href="#" className="social-link">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="#" className="social-link">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" className="social-link">
-              <i className="fab fa-dribbble"></i>
+            <a href="https://github.com/Terryking10" className="social-link">
+              <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

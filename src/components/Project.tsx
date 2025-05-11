@@ -47,7 +47,7 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
 
   return (
     <section className="projects-section">
-      <h2 className="section-title">My Projects</h2>
+      <h2 className="section-title">Mijn Projecten</h2>
 
       <div className="projects-filter">
         <button className="filter-btn active">All</button>
@@ -60,16 +60,6 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
-      </div>
-
-      {/* Click Me Button */}
-      <div className="projects-cta">
-        <button
-          onClick={() => setActiveSection("contact")}
-          className="btn primary-btn"
-        >
-          Click Me – Contact Me!
-        </button>
       </div>
     </section>
   )

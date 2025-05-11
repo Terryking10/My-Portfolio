@@ -35,9 +35,6 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
             <li className={`nav-item ${activeSection === "projects" ? "active" : ""}`}>
               <button onClick={() => handleNavClick("projects")}>Projects</button>
             </li>
-            <li className={`nav-item ${activeSection === "resume" ? "active" : ""}`}>
-              <button onClick={() => handleNavClick("resume")}>Resume</button>
-            </li>
             <li className={`nav-item ${activeSection === "contact" ? "active" : ""}`}>
               <button onClick={() => handleNavClick("contact")}>Contact</button>
             </li>

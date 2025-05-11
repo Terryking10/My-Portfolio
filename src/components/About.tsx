@@ -36,7 +36,7 @@ const About = () => {
 
   return (
     <section className="about-section">
-      <h2 className="section-title">About Me</h2>
+      <h2 className="section-title">Introductie</h2>
 
       <div className="about-content">
         <div className="about-image">
@@ -44,7 +44,7 @@ const About = () => {
         </div>
 
         <div className="about-text">
-          <h3>Who am I?</h3>
+          <h3>Mijn profiel</h3>
           <p>
             Ik ben een enthousiaste IT-programmeur met oog voor detail en
             een passie voor het ontwikkelen van efficiënte en schaalbare
@@ -73,18 +73,18 @@ const About = () => {
             </div>
             <div className="info-item">
               <span className="info-title">Availability:</span>
-              <span className="info-value">Open to opportunities</span>
+              <span className="info-value">Open to opportunities/Work</span>
             </div>
           </div>
-
-          <a href="#" className="btn">
+          <p>Download mijn volledige CV voor meer details over mijn ervaring en vaardigheden.</p>
+          <a href="/Terry_boateng_cv.pdf" className="btn">
             Download CV
           </a>
         </div>
       </div>
 
       <div className="skills-container">
-        <h3 className="skills-title">My Skills</h3>
+        <h3 className="skills-title">Vaardigheden & competenties</h3>
         <div className="skills-grid">
           {skills.map((skill, index) => (
             <SkillItem key={index} name={skill.name} level={skill.level} />

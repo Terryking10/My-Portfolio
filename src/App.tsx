@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
 import Projects from "./components/Project"
-import Resume from "./components/Resume"
 import Contact from "./components/Contact"
 
 function App() {
@@ -20,8 +19,6 @@ function App() {
         return <About />
       case "projects":
         return <Projects setActiveSection={setActiveSection} />
-      case "resume":
-        return <Resume />
       case "contact":
         return <Contact />
       default:

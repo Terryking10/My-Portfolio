@@ -16,7 +16,7 @@ const Home = ({ setActiveSection }: HomeProps) => {
             <a href="#projects" className="btn primary-btn" onClick={() => setActiveSection("projects")}>
                 View My Work
             </a>
-            <a href="#projects" className="btn primary-btn" onClick={() => setActiveSection("projects")}>
+            <a href="#contact" className="btn primary-btn" onClick={() => setActiveSection("contact")}>
                 Contact Me
             </a>
           </div>
