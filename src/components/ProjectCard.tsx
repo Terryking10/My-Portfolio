@@ -3,18 +3,16 @@ import "../styles/ProjectCard.css"
 interface Project {
   title: string;
   description: string;
-  image?: string;
   tags: string[];
   demoLink: string;
 }
 
 const ProjectCard = ({ project }: { project: Project }) => {
-  const { title, description, image, tags, demoLink} = project
+  const { title, description, tags, demoLink} = project
 
   return (
     <div className="project-card">
       <div className="project-image">
-        <img src={image || "/placeholder.svg"} alt={title} />
         <div className="project-overlay">
           <div className="project-links">
             <a href={demoLink} className="project-link" target="_blank" rel="noopener noreferrer">
