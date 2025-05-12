@@ -6,11 +6,10 @@ interface Project {
   image?: string;
   tags: string[];
   demoLink: string;
-  codeLink: string;
 }
 
 const ProjectCard = ({ project }: { project: Project }) => {
-  const { title, description, image, tags, demoLink, codeLink } = project
+  const { title, description, image, tags, demoLink} = project
 
   return (
     <div className="project-card">
@@ -20,9 +19,6 @@ const ProjectCard = ({ project }: { project: Project }) => {
           <div className="project-links">
             <a href={demoLink} className="project-link" target="_blank" rel="noopener noreferrer">
               Live Demo
-            </a>
-            <a href={codeLink} className="project-link" target="_blank" rel="noopener noreferrer">
-              View Code
             </a>
           </div>
         </div>

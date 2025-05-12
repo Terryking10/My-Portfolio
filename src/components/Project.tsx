@@ -21,7 +21,6 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
       image: "https://via.placeholder.com/600x400 ",
       tags: ["React", "Firebase", "CSS"],
       demoLink: "#",
-      codeLink: "#",
     },
     {
       id: 3,
@@ -30,7 +29,6 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
       image: "https://via.placeholder.com/600x400 ",
       tags: ["HTML", "CSS", "JavaScript"],
       demoLink: "#",
-      codeLink: "#",
     },
     {
       id: 4,
@@ -39,7 +37,6 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
       image: "https://via.placeholder.com/600x400 ",
       tags: ["React", "API", "Chart.js"],
       demoLink: "#",
-      codeLink: "#",
     },
   ]
 
