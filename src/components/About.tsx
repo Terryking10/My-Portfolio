@@ -3,31 +3,29 @@ import SkillItem from "./SkillItem"
 
 const About = () => {
     const skills = [
-        // Talen & Frameworks
-        { name: "JavaScript", level: 85 },
-        { name: "TypeScript", level: 80 },
+        { name: "JavaScript", level: 75 },
+        { name: "TypeScript", level: 90 },
         { name: "C#", level: 75 }, // .NET uses C#
         { name: ".NET Core", level: 75 },
         { name: ".NET Framework", level: 70 },
       
-        // Webontwikkeling (Web Development)
-        { name: "Next.js", level: 80 },
-        { name: "React", level: 80 },
-        { name: "React Native", level: 75 },
+        { name: "Next.js", level: 90 },
+        { name: "React", level: 90 },
+        { name: "React Native", level: 85 },
         { name: "HTML5", level: 90 },
-        { name: "CSS3", level: 85 },
-        { name: "UI/UX Design", level: 70 },
+        { name: "CSS3", level: 90 },
+        { name: "UI/UX Design", level: 80 },
       
-        // Databases
+       
         { name: "MySQL", level: 75 },
         { name: "MongoDB", level: 80 },
         { name: "SQL", level: 75 },
       
-        // Softwareontwikkeling (Software Development)
+        
         { name: "Object-Oriented Programming (OOP)", level: 80 },
         { name: "Test-Driven Development (TDD)", level: 80 },
       
-        // Tools & Technologieën (Tools & Technologies)
+        
         { name: "Git", level: 80 },
         { name: "GitHub", level: 80 },
         { name: "Docker", level: 70 },

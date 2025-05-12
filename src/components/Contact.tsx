@@ -1,6 +1,6 @@
 "use client";
 
-// Import core Font Awesome library
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -23,7 +23,7 @@ const Contact = () => {
             Aarzel niet om contact met me op te nemen. Ik ben altijd open voor het bespreken van nieuwe projecten, creatieve ideeën of kansen om deel uit te maken van jouw visie.
             </p>
 
-          {/* Address */}
+          
           <div className="info-item">
             <div className="info-icon">
               <FontAwesomeIcon icon="map-marker-alt" />
@@ -34,7 +34,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Email */}
           <div className="info-item">
             <div className="info-icon">
               <FontAwesomeIcon icon="envelope" />
@@ -45,7 +44,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Phone */}
+        
           <div className="info-item">
             <div className="info-icon">
               <FontAwesomeIcon icon="phone" />
@@ -56,7 +55,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Social Links */}
+         
           <div className="social-links">
             <a href="www.linkedin.com/in/terry-boateng-56a215201" className="social-link">
               <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
