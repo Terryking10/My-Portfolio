@@ -1,5 +1,6 @@
 import "../styles/Home.css"
 
+
 type HomeProps = {
   setActiveSection: (section: string) => void
 }
@@ -23,7 +24,7 @@ const Home = ({ setActiveSection }: HomeProps) => {
         </div>
         <div className="home-image">
           <div className="image-container">
-            <img src="https://via.placeholder.com/400x500 " alt="Terry Boateng" />
+            <img src="/assets/" alt="Terry Boateng" />
           </div>
         </div>
       </div>

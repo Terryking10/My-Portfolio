@@ -46,7 +46,8 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
   ]
 
   return (
-    <section className="projects-section">
+
+    <section className="projects-section" onClick={() => setActiveSection('projects')}>
       <h2 className="section-title">Mijn Projecten</h2>
 
       <div className="projects-filter">
@@ -63,6 +64,6 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
       </div>
     </section>
   )
-}
 
+}
 export default Projects
