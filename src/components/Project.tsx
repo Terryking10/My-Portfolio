@@ -12,7 +12,7 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
       title: "Swype Website",
       description: "A fully responsive e-commerce platform built with React and Node.js.",
       tags: ["React", "Node.js", "MongoDB"],
-      demoLink: "https://tech-birds-terryrichy55-gmailcoms-projects.vercel.app/login",
+      demoLink: "https://tech-birds.vercel.app/",
     },
     {
       id: 2,
