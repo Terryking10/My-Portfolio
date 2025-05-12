@@ -15,7 +15,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: string, se
     <header className="header">
       <div className="navbar-container">
         <div className="logo" onClick={() => handleNavClick("home")}>
-          <h2>Portfolio</h2>
+          <h2>Terry Boateng</h2>
         </div>
 
         <div className={`menu-toggle ${menuOpen ? "active" : ""}`} onClick={() => setMenuOpen(!menuOpen)}>

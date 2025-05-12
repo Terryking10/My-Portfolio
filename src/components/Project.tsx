@@ -9,12 +9,11 @@ const Projects = ({ setActiveSection }: ProjectsProps) => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Website",
+      title: "Swype Website",
       description: "A fully responsive e-commerce platform built with React and Node.js.",
-      image: "https://via.placeholder.com/600x400 ",
+      image: "https://tech-birds.vercel.app/",
       tags: ["React", "Node.js", "MongoDB"],
       demoLink: "#",
-      codeLink: "#",
     },
     {
       id: 2,
