@@ -1,36 +1,6 @@
 import "../styles/About.css"
-import SkillItem from "./SkillItem"
 
 const About = () => {
-    const skills = [
-        { name: "JavaScript", level: 75 },
-        { name: "TypeScript", level: 90 },
-        { name: "C#", level: 75 }, // .NET uses C#
-        { name: ".NET Core", level: 75 },
-        { name: ".NET Framework", level: 70 },
-      
-        { name: "Next.js", level: 90 },
-        { name: "React", level: 90 },
-        { name: "React Native", level: 85 },
-        { name: "HTML5", level: 90 },
-        { name: "CSS3", level: 90 },
-        { name: "UI/UX Design", level: 80 },
-      
-       
-        { name: "MySQL", level: 75 },
-        { name: "MongoDB", level: 80 },
-        { name: "SQL", level: 75 },
-      
-        
-        { name: "Object-Oriented Programming (OOP)", level: 80 },
-        { name: "Test-Driven Development (TDD)", level: 80 },
-      
-        
-        { name: "Git", level: 80 },
-        { name: "GitHub", level: 80 },
-        { name: "Docker", level: 70 },
-        { name: "WordPress", level: 90 }
-      ];
 
   return (
     <section className="about-section">
@@ -78,15 +48,6 @@ const About = () => {
           <a href="/Terry_boateng_cv.pdf" className="btn">
             Download CV
           </a>
-        </div>
-      </div>
-
-      <div className="skills-container">
-        <h3 className="skills-title">Vaardigheden & competenties</h3>
-        <div className="skills-grid">
-          {skills.map((skill, index) => (
-            <SkillItem key={index} name={skill.name} level={skill.level} />
-          ))}
         </div>
       </div>
     </section>
