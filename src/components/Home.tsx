@@ -11,7 +11,7 @@ const Home = ({ setActiveSection }: HomeProps) => {
       <div className="home-content">
         <div className="home-text">
           <h2 className="hero-subtitle">Fullstack Developer</h2>
-          <p className="hero-description">I build exceptional and accessible digital experiences for the web.</p>
+          <p className="hero-description">Technisch nieuwsgierig, design-bewust, en altijd op zoek naar betere manieren om dingen werkend te krijgen. </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn primary-btn" onClick={() => setActiveSection("projects")}>
                 View My Work

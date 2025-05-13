@@ -40,10 +40,11 @@ const About = () => {
     {
       category: "Tools & Platforms",
       skills: [
-        { name: "Git", iconName: "gitBranch" },
         { name: "GitHub", iconName: "github" },
         { name: "Docker", iconName: "box" },
         { name: "WordPress", iconName: "globe" },
+        { name: "Figma", iconName: "figma" },
+        { name: "Storybook", iconName: "storybook" },
       ],
     },
   ]
@@ -53,9 +54,7 @@ const About = () => {
       <h2 className="section-title">Introductie</h2>
 
       <div className="about-content">
-        <div className="about-image">
-          <img src="https://via.placeholder.com/400x500" alt="Terry Boateng" />
-        </div>
+
 
         <div className="about-text">
           <h3>Mijn profiel</h3>

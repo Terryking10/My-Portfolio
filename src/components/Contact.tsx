@@ -18,6 +18,7 @@ const Contact = () => {
 
       <div className="contact-container">
         <div className="contact-info">
+          <br />
           <h3>Get in Touch</h3>
             <p>
             Aarzel niet om contact met me op te nemen. Ik ben altijd open voor het bespreken van nieuwe projecten, creatieve ideeën of kansen om deel uit te maken van jouw visie.
@@ -30,7 +31,7 @@ const Contact = () => {
             </div>
             <div className="info-content">
               <h4>Address</h4>
-              <p>Wijnegemstraat 14, Borgerhout</p>
+              <p>Antwerpen, Belgie</p>
             </div>
           </div>
 

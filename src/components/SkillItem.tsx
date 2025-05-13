@@ -13,6 +13,8 @@ import {
   Globe,
   FileType,
   Layers,
+  Figma,
+  BookOpen,
 } from "lucide-react"
 
 interface SkillItemProps {
@@ -37,8 +39,9 @@ const SkillItem = ({ name, iconName }: SkillItemProps) => {
     globe: <Globe size={24} color="#6e7f91" />,
     fileType: <FileType size={24} color="#6e7f91" />,
     layers: <Layers size={24} color="#6e7f91" />,
+    figma: <Figma size={24} color="#6e7f91" />,
+    storybook: <BookOpen size={24} color="#6e7f91" />,
   }
-
   // Get the icon from the map or use a default
   const icon = iconMap[iconName] || <Code size={24} color="#6e7f91" />
 

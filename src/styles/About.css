@@ -9,6 +9,7 @@
   margin-bottom: 3rem;
   text-align: center;
   position: relative;
+  color: #4a5568;
 }
 
 .section-title:after {
@@ -46,7 +47,7 @@
 .about-text h3 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
-  color: #2c3e50;
+  color: #718096;
 }
 
 .about-text p {
